@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family: 'Lato', sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 75px;
+    background: #222222;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.headerLeft {
+    display: flex;
+    gap: 40px;
+}
+
+.logo {
+    padding-top: 19px;
+}
+
+.searchIcon { 
+    padding-top: 26px;
+}
+
+.headerRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 26px;
+    gap: 33px;
+}
+
+.slider {
+    background: #F1E4E6;
+}
+
+.sliderMain {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sliderText {
+    padding-top: 230px;
+}
+
+.sliderInfo {
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+}
+
+.sliderInfoTitle {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: #222222;
+}
+
+.sliderInfoHeading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #222222;
+}
+
+.sliderInfoHeading span {
+    color: #f16d7f;
+}
+
