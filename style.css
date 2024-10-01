@@ -91,3 +91,58 @@ img {
     color: #f16d7f;
 }
 
+.sale {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 64px;
+    padding-bottom: 96px;
+}
+
+.saleItem {}
+
+.saleItemBg {
+    background-color: rgba(33, 22, 22, 0.70);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.saleItemBg p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.saleItemBg h3 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #f16d7f
+}
+
+.saleItem1 {
+    background-image: url(./img/sale1.png);
+    width: 350px;
+    height: 260px;
+}
+
+.saleItem2 {
+    background-image: url(./img/sale2.png);
+    width: 350px;
+    height: 260px;
+}
+
+.saleItem3 {
+    background-image: url(./img/sale3.png);
+    width: 350px;
+    height: 260px;
+}
+
+.saleItemBig {
+    min-height: 180px;
+    grid-column: 1 / -1;
+    background-image: url(./img/sale4.png);
+}
