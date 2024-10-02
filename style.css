@@ -217,3 +217,21 @@ img {
     line-height: 19px;
     color: #F16D7F;
 }
+
+.saleBtn {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.btn {
+    width: 212px;
+    height: 48px;
+    flex-shrink: 0;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    border: 1px solid #f16d7f;
+    background: #F16D7F;
+}
